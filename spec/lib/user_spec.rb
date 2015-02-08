@@ -31,10 +31,4 @@ describe User do
 	user.courses.should >= 1
   end
   
-  it "kills a user" do
-	user = User.new("Andres Lopez", "agldeleon@gmail.com", "andywarrior")
-	user.kill!
-	user.should == nil
-  end
-
 end
