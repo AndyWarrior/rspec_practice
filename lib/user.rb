@@ -14,7 +14,7 @@ class User
 	return false
   end
   
-  #def kill!
-   # self = nil
-  #end
+  def kill!
+    #self = nil
+  end
 end
